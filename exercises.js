@@ -153,7 +153,7 @@ const viewCheckv3 = (arr) => {
   let counter = 0;
   let result = 1;
   let currentMax = workingArr[workingArrLength - 1];
-  for (let i = workingArrLength - 2; i > 0; i--) {
+  for (let i = workingArrLength - 2; i > -1; i--) {
     counter++;
     if (workingArr[i] > currentMax) {
       currentMax = workingArr[i];
